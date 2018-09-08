@@ -1,0 +1,10 @@
+The only files that we really need to worry about are views.py,
+models.py, urls.py and the template directory. The file views.py
+is where we have functions to run before we get information and 
+display it to the user. File urls.py will be in charge of specifying
+what functions we run once we get into a new url, makes sense. 
+Models.py will hold our database records in a friendly python 
+manageble class. If you add a new model to that file you will 
+need to migrate it to the database, it's easy enough just google it,
+it'll be like 2 commands. The templates directory will hold all
+of our html files.

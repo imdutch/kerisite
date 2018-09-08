@@ -1,0 +1,20 @@
+As you can see we have a sqlite database.
+
+
+The server directory will have url routing to different apps
+as well settings for our server.
+
+
+The directory KeriSite will hold everything that we need to make
+the website. It has html files, database models, static files
+functions to run when going to a new url and others as well. A 
+README in there will explain more.
+
+
+Before you run the server run command 'pip install virtualenv'. 
+After it installs run 'virtualenv -p python3 venv'. To activate 
+the virtual environment run 'source venv/bin/activate'. Then you'll
+want to run 'pip install -r requirements.txt' 
+and you should be able to start the server. To start it run
+'python manage.py runserver' and then in your browser go to
+localhost:8000 and you should see the default page I made. 

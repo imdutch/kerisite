@@ -1,0 +1,6 @@
+Django's template tags are really nice to work with, instead of 
+having to setup all the boilerplate lines in every file, we 
+instead do it once and extend all of our html files with it. Things
+like navbars can also go in there if they will be on all pages.
+Each page has to blocks that can be used, block body and block 
+scripts, which do exactly what they describe.
