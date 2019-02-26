@@ -1,0 +1,16 @@
+{
+  "name": "kerisite",
+  "version": "0.1.0",
+  "description": "Website for Keri Richmond's art",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^2.1.5",
+    "react": "^16.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

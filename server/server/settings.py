@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'KeriSite',
     'django.contrib.staticfiles',
+    'webpack_loader',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +52,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'server.urls'
+stats_file = os.path.join(BASE_DIR,'../webpack-stats.json')
 
 TEMPLATES = [
     {
@@ -67,6 +69,13 @@ TEMPLATES = [
         },
     },
 ]
+WEBPACK_LOADER = { 
+    'DEFAULT':{
+        'BUNDLE_DIR_NAME':'bundles/',
+        'STATS_FILE': os.path.join(BASE_DIR,'webpack-stats.json'),
+    }   
+}
+
 
 WSGI_APPLICATION = 'server.wsgi.application'
 
