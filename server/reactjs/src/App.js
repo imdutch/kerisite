@@ -8,6 +8,8 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path='/' render={props => <Home {...props} />}/>
+          <Route exact path='/signin' render={props => <h1>Signin</h1>}/>
+          <Route exact path='/register' render={props => <h1>Register</h1>}/>
         </Switch>
       </BrowserRouter>
   
